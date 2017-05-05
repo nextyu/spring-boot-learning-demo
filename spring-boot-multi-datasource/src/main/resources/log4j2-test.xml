@@ -21,7 +21,7 @@
         <Logger name="com.cpj.common.utils" level="INFO">
             <AppenderRef ref="Console"/>
         </Logger>
-        <Root level="${logging.level.root}">
+        <Root level="DEBUG">
             <!--<AppenderRef ref="RollingFile"/>-->
             <AppenderRef ref="Console"/>
         </Root>
